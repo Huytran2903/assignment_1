@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 function ConfirmModal({
   isOpen,
   title = 'Confirm Action',

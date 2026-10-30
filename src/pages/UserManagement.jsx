@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useState, useEffect, useMemo } from 'react';
 import { userService } from '../services/userService';
 import { authService } from '../services/authService';
@@ -5,6 +8,9 @@ import Modal from '../components/Modal';
 import ConfirmModal from '../components/ConfirmModal';
 import SearchBar from '../components/SearchBar';
 
+/**
+ * @author HuytpnCe190719
+ */
 function UserManagement() {
   const currentUser = authService.getCurrentUser();
 

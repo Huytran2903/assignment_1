@@ -1,6 +1,12 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useNavigate } from 'react-router-dom';
 import { authService } from '../services/authService';
 
+/**
+ * @author HuytpnCe190719
+ */
 function Header() {
   const navigate = useNavigate();
   const user = authService.getCurrentUser();

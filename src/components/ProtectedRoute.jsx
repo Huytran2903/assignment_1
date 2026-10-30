@@ -1,6 +1,12 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { Navigate } from 'react-router-dom';
 import { authService } from '../services/authService';
 
+/**
+ * @author HuytpnCe190719
+ */
 function ProtectedRoute({ children }) {
   const isAuthenticated = authService.isAuthenticated();
 

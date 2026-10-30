@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { INITIAL_USERS } from '../mock/initialData';
 
 const STORAGE_KEY = 'funews_users';
@@ -16,6 +19,9 @@ const initUsers = () => {
   }
 };
 
+/**
+ * @author HuytpnCe190719
+ */
 export const userService = {
   getAll: () => {
     return initUsers();

@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
@@ -8,6 +11,9 @@ import SettingsPage from './pages/SettingsPage';
 import AdminLayout from './layouts/AdminLayout';
 import ProtectedRoute from './components/ProtectedRoute';
 
+/**
+ * @author HuytpnCe190719
+ */
 function App() {
   return (
     <Router>

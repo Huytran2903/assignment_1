@@ -1,7 +1,13 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 
+/**
+ * @author HuytpnCe190719
+ */
 function AdminLayout() {
   return (
     <div className="admin-layout">

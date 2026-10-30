@@ -1,7 +1,7 @@
 # FUNewsManagementSystem — Frontend Quản trị ReactJS
 
 * **Course:** SBA301 – Assignment 01 – Working with ReactJS Application
-* **Student Name / Project:** `Huytpn_SE1910`
+* **Student Name / Project:** `HuytpnCe190719`
 * **Technologies:** React 19, Vite, JavaScript, React Router v7, Vanilla CSS, LocalStorage Mock Service.
 * **Target Score:** 10.0 / 10.0 (Excellent Level).
 

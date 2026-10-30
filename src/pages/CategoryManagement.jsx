@@ -1,9 +1,15 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useState, useEffect, useMemo } from 'react';
 import { categoryService } from '../services/categoryService';
 import Modal from '../components/Modal';
 import ConfirmModal from '../components/ConfirmModal';
 import SearchBar from '../components/SearchBar';
 
+/**
+ * @author HuytpnCe190719
+ */
 function CategoryManagement() {
   // Source data list
   const [categories, setCategories] = useState([]);

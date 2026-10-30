@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 function Modal({ isOpen, onClose, title, children, isLarge = false }) {
   if (!isOpen) return null;
 

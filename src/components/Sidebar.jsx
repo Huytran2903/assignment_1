@@ -1,5 +1,11 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { NavLink } from 'react-router-dom';
 
+/**
+ * @author HuytpnCe190719
+ */
 function Sidebar() {
   // Danh sách các menu theo rubric và requirements (R06)
   const menuItems = [

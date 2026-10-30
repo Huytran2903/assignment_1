@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { INITIAL_CATEGORIES } from '../mock/initialData';
 
 const STORAGE_KEY = 'funews_categories';
@@ -17,6 +20,9 @@ const initCategories = () => {
   }
 };
 
+/**
+ * @author HuytpnCe190719
+ */
 export const categoryService = {
   getAll: () => {
     return initCategories();

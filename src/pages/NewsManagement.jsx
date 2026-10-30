@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useState, useEffect, useMemo } from 'react';
 import { newsService } from '../services/newsService';
 import { categoryService } from '../services/categoryService';
@@ -6,6 +9,9 @@ import Modal from '../components/Modal';
 import ConfirmModal from '../components/ConfirmModal';
 import SearchBar from '../components/SearchBar';
 
+/**
+ * @author HuytpnCe190719
+ */
 function NewsManagement() {
   // Source lists
   const [newsList, setNewsList] = useState([]);

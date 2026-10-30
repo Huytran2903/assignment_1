@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { authService } from '../services/authService';
@@ -5,6 +8,9 @@ import { categoryService } from '../services/categoryService';
 import { newsService } from '../services/newsService';
 import { userService } from '../services/userService';
 
+/**
+ * @author HuytpnCe190719
+ */
 function DashboardPage() {
   const user = authService.getCurrentUser();
 

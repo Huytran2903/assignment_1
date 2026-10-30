@@ -1,8 +1,14 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { useState } from 'react';
 import { authService } from '../services/authService';
 import { INITIAL_CATEGORIES, INITIAL_NEWS, INITIAL_USERS } from '../mock/initialData';
 import ConfirmModal from '../components/ConfirmModal';
 
+/**
+ * @author HuytpnCe190719
+ */
 function SettingsPage() {
   const user = authService.getCurrentUser();
   const [isResetConfirmOpen, setIsResetConfirmOpen] = useState(false);

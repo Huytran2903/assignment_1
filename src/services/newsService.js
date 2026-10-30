@@ -1,3 +1,6 @@
+/**
+ * @author HuytpnCe190719
+ */
 import { INITIAL_NEWS } from '../mock/initialData';
 
 const STORAGE_KEY = 'funews_articles';
@@ -16,6 +19,9 @@ const initNews = () => {
   }
 };
 
+/**
+ * @author HuytpnCe190719
+ */
 export const newsService = {
   getAll: () => {
     return initNews();
